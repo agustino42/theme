@@ -1,6 +1,7 @@
 //framer motion import 
 import {motion} from 'framer-motion'
 
+
 //variantes
 const transitionVariants = {
   initial: {
@@ -30,6 +31,7 @@ const Transition = () => {
       exit='exit'
       transition={{delay: 0.2, duration: 0.6, ease: 'easeInOut' }}
       >
+       
       </motion.div>
       
       <motion.div
@@ -40,6 +42,7 @@ const Transition = () => {
       exit='exit'
       transition={{delay: 0.4, duration: 0.6, ease: 'easeInOut' }}
       >
+        
       </motion.div>
 
       <motion.div
@@ -50,6 +53,7 @@ const Transition = () => {
       exit='exit'
       transition={{delay: 0.5, duration: 0.6, ease: 'easeInOut' }}
       >
+        
       </motion.div>
     </>
   );
