@@ -49,8 +49,8 @@ const aboutData = [
     title: 'ESTUDIOS REALIZADOS',
     info: [
       {
-        title: 'Universitaria: Universidad Nacional Experimental de los Llanos Ezequiel Zamora (UNELLEZ). T.S.U en Informática.',
-        stage: '2013 - 2016',
+        title: 'Universidad Nacional Experimental de los Llanos Ezequiel Zamora (UNELLEZ).',
+        stage: 'T.S.U en Informática. 2013 - 2016',
       },
      
     ],
@@ -69,27 +69,7 @@ const aboutData = [
      
     ],
   },
-  {
-    title: 'CURSOS REALIZADOS:',
-    info: [
-      {
-        title: 'Introducción a Blender. Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas.',
-        stage: 'Desde 26/04/2012 hasta 28/05/2012.',
-      },
-      {
-        title: 'Blender Nivel Intermedio. Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas.',
-        stage: 'Desde 07/10/2013 hasta 29/10/2013.',
-      },
-      {
-        title: 'Diseño Gráfico Bajo Software Libre – Nivel Básico - Nivel Intermedio   Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas',
-        stage: 'Desde 30/09/2013 hasta 04/11/2013.',
-      },
-       {
-        title: 'Manejador de Base de Datos MySQL Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas',
-        stage: 'Desde 17/02/2014 hasta 21/04/2014.',
-      },
-    ],
-  },
+ 
 ];
 
 const About = () => {
@@ -171,6 +151,18 @@ const About = () => {
 
 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
 FreeCodeCamp
+</div>
+
+ </div>
+
+           <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
+
+<div className='text-2x1 xl:text-4x1 font-extrabold text-accent mb-2'>
+<CountUp start={0} end={350} duration={5} /> +
+</div>
+
+<div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
+Codecademy
 </div>
 
  </div>

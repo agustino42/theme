@@ -39,9 +39,7 @@ const Home = () => {
     </motion.p>
     {/**btn */}
     <div className='flex justify-center xl:hidden relative'>
-    <Ripples  size={75} speed={3} color="yellow" />
-      <ProjectsBtn />
-      <Ripples  size={65} speed={3} color="white" />
+   
     </div>
   <motion.div 
   variants={fadeIn('down', 0.4)}
@@ -50,9 +48,7 @@ const Home = () => {
   exit='hidden'
   className='hidden xl:flex justify-center'
   > 
-  <Ripples  size={75} speed={3} color="yellow" />
-    <ProjectsBtn />
-    <Ripples  size={65} speed={3} color="white" />
+ 
   </motion.div>
   </div>
 </div>
