@@ -14,6 +14,8 @@ import {
   RxReader,
   RxRocket,
   RxArrowBottomRight,
+  RxCode,
+  RxInfoCircled,
 } from "react-icons/rx";
 //reqier modules
 import { FreeMode, Pagination } from 'swiper';
@@ -22,28 +24,38 @@ import { FreeMode, Pagination } from 'swiper';
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Desarrollo Front-End',
+    description: 'Creación de la parte visible de un sitio web que los usuarios interactúan directamente. Se utiliza HTML, CSS y JavaScript para construir la interfaz de usuario y la experiencia del usuario.',
   },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Desarrollo de Aplicaciones Web',
+    description: 'Aplicaciones web específicas que pueden realizar tareas específicas, como sistemas de gestión de contenido (CMS), tiendas en línea, redes sociales, y más.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Diseño Web',
+    description: 'Creación de diseños atractivos y funcionales para sitios web, que incluye la disposición de elementos visuales, colores, tipografía y logotipos.',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Optimización de Velocidad',
+    description: 'Mejorar el rendimiento de un sitio web, optimizando su velocidad de carga y rendimiento general',
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Diseño Responsivo',
+    description: ' Asegurar que un sitio web se vea y funcione correctamente en una variedad de dispositivos y tamaños de pantalla, incluyendo computadoras de escritorio, tablets y teléfonos móviles.',
+  },
+  {
+    icon: <RxCode />,
+    title: 'Desarrollo de Comercio Electrónico',
+    description: 'Crear tiendas en línea con funciones de carrito de compras, procesamiento de pagos y gestión de inventario.',
+  },
+  {
+    icon: <RxInfoCircled />,
+    title: 'Mantenimiento y Soporte Continuo',
+    description: 'Proporcionar actualizaciones regulares, solución de problemas y soporte técnico después del lanzamiento del sitio web.',
   },
 ];
 

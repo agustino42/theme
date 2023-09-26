@@ -26,7 +26,7 @@ const Home = () => {
     animate='show'
     exit='hidden' 
     className='h1'>
-      transforming Ideas <br /> Into <span className='text-accent'>Digital Reality</span>
+      Agustin Lopez Front-end Developer <br />  <span className='text-accent'>Tecnico en Informatica</span>
     </motion.h1>
     {/**subtitle */}
     <motion.p
@@ -35,7 +35,7 @@ const Home = () => {
     animate='show'
     exit='hidden' 
     className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'
-    >loremdssssssssssssssssssssssssdasdsaasssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+    >Mi gran interés y fuerte compromiso en el mundo de la tecnología son dos de las principales motivaciones que me caracterizan como profesional. Desde mis primeras experiencias con la informática hasta mi continua búsqueda de aprendizaje en este campo, siempre he sentido una profunda pasión por la tecnología y su poder para cambiar nuestro entorno.
     </motion.p>
     {/**btn */}
     <div className='flex justify-center xl:hidden relative'>

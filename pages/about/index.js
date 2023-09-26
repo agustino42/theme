@@ -46,49 +46,47 @@ const aboutData = [
     ],
   },
   {
-    title: 'awards',
+    title: 'ESTUDIOS REALIZADOS',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: 'Universitaria: Universidad Nacional Experimental de los Llanos Ezequiel Zamora (UNELLEZ). T.S.U en Informática.',
+        stage: '2013 - 2016',
       },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
-      },
+     
     ],
   },
   {
-    title: 'experience',
+    title: 'EXPERIENCIA LABORAL',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Trabajos en línea "Desarrollo Web" . Freelancer',
+        stage: '2020 - 2023',
       },
       {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
+        title: 'Mantenimiento y reparación de computadoras.',
+        stage: 'Trabajo A domicilo',
       },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
-      },
+     
     ],
   },
   {
-    title: 'credentials',
+    title: 'CURSOS REALIZADOS:',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Introducción a Blender. Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas.',
+        stage: 'Desde 26/04/2012 hasta 28/05/2012.',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
+        title: 'Blender Nivel Intermedio. Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas.',
+        stage: 'Desde 07/10/2013 hasta 29/10/2013.',
       },
       {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
+        title: 'Diseño Gráfico Bajo Software Libre – Nivel Básico - Nivel Intermedio   Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas',
+        stage: 'Desde 30/09/2013 hasta 04/11/2013.',
+      },
+       {
+        title: 'Manejador de Base de Datos MySQL Institución: Fundación para el Desarrollo de la Ciencia y la Tecnología "FUNDACITE". Barinas',
+        stage: 'Desde 17/02/2014 hasta 21/04/2014.',
       },
     ],
   },
@@ -110,7 +108,7 @@ const About = () => {
           animate='show'
           exit='hidden'
           className='h2'>
-            Captivating <span className='text-accent'>Stories</span> Birth magnificent designs.
+            Transformando ideas <span className='text-accent'> en sitios web impresionantes</span> 
           </motion.h2>
           <motion.p 
           variants={fadeIn('right', 0.5)}
@@ -118,7 +116,7 @@ const About = () => {
           animate='show'
           exit='hidden'
           className='max-w-md mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
-            10 years ago, I began freelancing as a Developer.
+            Construyendo la web, una línea de código a la vez.
           </motion.p>
           {/**couters */}
           <motion.div
@@ -136,7 +134,7 @@ const About = () => {
                 </div>
 
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
-                   Años de Experiencia
+                 Experiencia en Desarrollo Web
                 </div>
 
               </div>
